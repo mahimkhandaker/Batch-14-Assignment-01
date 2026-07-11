@@ -148,3 +148,20 @@ header{
     height: 324px;
     border-radius: 12px 12px 0px 0px;
 }
+
+.m-header-m{
+    text-align: center;
+    padding: 80px 0 25px 0;
+}
+
+.m-header-2{
+    font-size: 48px ;
+    font-weight: bold;
+    color: #0D1B2A;
+}
+.m-header-p-2{
+    font-size: 16px;
+    font-weight: 400;
+    color: #575757;
+    margin: 5px 0;
+}
