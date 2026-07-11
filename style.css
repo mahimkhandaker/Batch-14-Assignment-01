@@ -1,4 +1,4 @@
-*{
+* {
     font-family: "Inter", sans-serif;
     margin: 0 auto;
     padding: 0;
@@ -7,7 +7,7 @@
 }
 
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,30 +16,31 @@ nav{
     font-size: 16px;
 }
 
-.bar-link{
+.bar-link {
     display: flex;
     list-style: none;
     gap: 24px;
-    
+
 
 }
 
-a{
+a {
     text-decoration: none;
     color: #575757;
 }
 
-.logo{
+.logo {
     width: 134px;
     height: 44px;
 }
 
-.btn-clr{
+.btn-clr {
     background-color: #1D4ED8;
     color: #FFFFFF;
 
 }
-.btn-nav{
+
+.btn-nav {
     padding: 12px;
     border: none;
     border-radius: 10px;
@@ -48,43 +49,45 @@ a{
     font-weight: bold;
 }
 
-header{
+header {
     height: 100vh;
     width: 100%;
 
-  background-image:
-    linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.7)
-    ),
-    url("./assets/banner.jpg");
-  background-size: cover;
-  background-position: center;
+    background-image:
+        linear-gradient(to bottom,
+            rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.7)),
+        url("./assets/banner.jpg");
+    background-size: cover;
+    background-position: center;
 
     /* background-image:linear-gradient(to right,rgba(0,0,0,0.6),rgba(0,0,0,0) 70%), url('./assets/banner.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     max-width: 1280px; */
 
-    
+
 }
-.bnr-content{
+
+.bnr-content {
     color: #FFFFFF;
     align-items: center;
 }
-.bnr-content h1{
+
+.bnr-content h1 {
     font-size: 80px;
     font-weight: bold;
 }
-.bnr-content p{
+
+.bnr-content p {
     font-size: 22px;
     font-weight: 400;
     text-align: center;
     width: 829px;
     height: 108px;
 }
-.btn-header{
+
+.btn-header {
     width: 282px;
     height: 74px;
     padding: 12px;
@@ -93,75 +96,172 @@ header{
     border: none;
     border-radius: 10px;
 }
-header{
+
+header {
     display: grid;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
-.m-header{
+
+.m-header {
     text-align: center;
     font-size: 56px;
     font-weight: bold;
-    color: #000102;    
+    color: #000102;
 }
-.m-text{
+
+.m-text {
     margin: 40px;
 }
-.container{
+
+.container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
 
 }
 
-.card-1{
+.card-1 {
     border: 1px solid #E5E7EB;
     border-radius: 12px;
     box-shadow: 1px #E5E7EB;
-    
+
 
 }
-.main-content{
+
+.main-content {
     padding: 15px;
 }
-.text-1{
+
+.text-1 {
     font-size: 12px;
     font-weight: 600;
     color: #2563EB;
     margin: 5px 0;
 }
-.text-2{
+
+.text-2 {
     font-size: 20px;
     font-weight: bold;
     color: #0D1B2A;
     margin: 5px 0;
 }
-.text-3{
+
+.text-3 {
     font-size: 14px;
     font-weight: 400;
     color: #575757;
     margin: 5px 0;
 }
-.card-img{
+
+.card-img {
     width: 542px;
     height: 324px;
     border-radius: 12px 12px 0px 0px;
 }
 
-.m-header-m{
+.m-header-m {
     text-align: center;
     padding: 80px 0 25px 0;
 }
 
-.m-header-2{
-    font-size: 48px ;
+.m-header-2 {
+    font-size: 48px;
     font-weight: bold;
     color: #0D1B2A;
 }
-.m-header-p-2{
+
+.m-header-p-2 {
     font-size: 16px;
     font-weight: 400;
     color: #575757;
     margin: 5px 0;
+}
+
+.price-t-1{
+    font-size: 13px;
+    font-weight: 600;
+    color: #888888;
+}
+.price-t-2{
+    font-size: 44px;
+    font-weight: bold;
+    color: #0D1B2A;
+}
+.price-t-3{
+    font-size: 13px;
+    font-weight:400 ;
+    color: #888888;
+}
+.price-pro-1{
+    font-size: 13px;
+    font-weight: 600;
+    color: #93C5FD;
+}
+.price-pro-2{
+    font-size: 44px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.price-pro-3{
+    font-size: 13px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+hr{
+    border: none;
+    height: 1px;
+    background-color: #E5E7EB;
+    margin: 20px 0;
+}
+
+.normal-container{
+    border: 1px solid #E5E7EB;
+    width: 310px;
+    height: 402px;
+    border-radius: 12px;
+    padding: 32px;
+    background-color: #FFFFFF;
+}
+
+.normal-ul li{
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    margin: 20px 0;
+    
+}
+.normal-ul li::marker{
+    color: #2563EB;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.pro-container{
+    border: 1px solid #0D1B2A;
+    width: 310px;
+    height: 402px;
+    border-radius: 12px;
+    padding: 32px;
+    background-color: #0D1B2A;
+}
+.pro-ul li{
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin: 20px 0;
+}
+.pro-ul li::marker{
+    color: #2563EB;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.price-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
 }
