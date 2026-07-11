@@ -218,10 +218,10 @@ hr{
 
 .normal-container{
     border: 1px solid #E5E7EB;
-    width: 310px;
-    height: 402px;
+    width: 290px;
+    height: 440px;
     border-radius: 12px;
-    padding: 32px;
+    padding: 22px 32px;
     background-color: #FFFFFF;
 }
 
@@ -240,10 +240,10 @@ hr{
 
 .pro-container{
     border: 1px solid #0D1B2A;
-    width: 310px;
-    height: 402px;
+    width: 290px;
+    height: 440px;
     border-radius: 12px;
-    padding: 32px;
+    padding: 22px 32px;
     background-color: #0D1B2A;
 }
 .pro-ul li{
@@ -264,4 +264,44 @@ hr{
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+}
+
+.btn-standard{
+    font-size: 14px;
+    font-weight: 600;
+    color: #2563EB;
+    border: 2px solid #2563EB;
+    border-radius: 8px;
+    padding: 12px 5px;
+    width: 280px;
+    height: 40px;
+    background-color: white;
+    margin: 15px;
+    
+}
+
+.btn-pro{
+    font-size: 14px;
+    font-weight: 600;
+    color: #FFFFFF;
+    border: 2px solid #2563EB;
+    border-radius: 8px;
+    padding: 12px 5px;
+    width: 280px;
+    height: 40px;
+    background-color: #2563EB;
+    margin: 15px;
+}
+
+.btn-team{
+    font-size: 14px;
+    font-weight: 600;
+    color: #0D1B2A;
+    border: 2px solid #0D1B2A;
+    border-radius: 8px;
+    padding: 12px 5px;
+    width: 280px;
+    height: 40px;
+    background-color: white;
+    margin: 15px;
 }
