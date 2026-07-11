@@ -50,9 +50,22 @@ a{
 
 header{
     height: 100vh;
-    background-image:linear-gradient(to right,rgba(0,0,0,0.6),rgba(0,0,0,0) 70%), url('./assets/banner.jpg');
+    width: 100%;
+
+  background-image:
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("./assets/banner.jpg");
+  background-size: cover;
+  background-position: center;
+
+    /* background-image:linear-gradient(to right,rgba(0,0,0,0.6),rgba(0,0,0,0) 70%), url('./assets/banner.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    max-width: 1280px; */
 
     
 }
@@ -90,18 +103,48 @@ header{
     text-align: center;
     font-size: 56px;
     font-weight: bold;
-    color: #000102;
+    color: #000102;    
+}
+.m-text{
+    margin: 40px;
 }
 .container{
-    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+
 }
 
 .card-1{
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    box-shadow: 1px #E5E7EB;
     
 
+}
+.main-content{
+    padding: 15px;
+}
+.text-1{
+    font-size: 12px;
+    font-weight: 600;
+    color: #2563EB;
+    margin: 5px 0;
 }
 .text-2{
     font-size: 20px;
     font-weight: bold;
-    color: ;
+    color: #0D1B2A;
+    margin: 5px 0;
+}
+.text-3{
+    font-size: 14px;
+    font-weight: 400;
+    color: #575757;
+    margin: 5px 0;
+}
+.card-img{
+    width: 542px;
+    height: 324px;
+    border-radius: 12px 12px 0px 0px;
 }
