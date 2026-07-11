@@ -454,7 +454,8 @@ hr {
     font-weight: 500;
     color: #2563EB;
 }
-.status-2{
+
+.status-2 {
     font-size: 15px;
     font-weight: 500;
     color: #7ca4fa;
@@ -480,7 +481,8 @@ hr {
     color: #0D1B2A;
     margin: 8px 0;
 }
-.salary-2{
+
+.salary-2 {
     font-size: 18PX;
     font-weight: 700;
     color: #E5E7EB;
@@ -499,7 +501,8 @@ hr {
     background-color: #2563EB;
     margin: 8px 40px 8px 40px;
 }
-.job-btn-2{
+
+.job-btn-2 {
     font-size: 14px;
     font-weight: 600;
     color: #2563EB;
