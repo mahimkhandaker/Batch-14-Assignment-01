@@ -306,3 +306,35 @@ hr{
     background-color: white;
     margin: 15px;
 }
+
+.footer-color{
+    background-color: #0D1B2A;
+    
+}
+
+.footer-img{
+    width: 30px;
+    height: 30px;
+}
+.footer-s-div{
+    justify-content: center;
+}
+.footer-s-1{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 100px 0 0 0;
+    padding: 20px 0 0 0;
+}
+.footer-s-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 0 20px 0;
+}
+.footer-color-2{
+    font size:18px;
+    font-weight: 400;
+    color:#FFFFFF;
+}
+
